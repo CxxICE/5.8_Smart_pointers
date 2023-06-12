@@ -56,10 +56,7 @@ public:
 		
 	void reset(T *ptr)
 	{
-		if (_ptr != nullptr)
-		{
-			delete _ptr;
-		}
+		delete _ptr;
 		_ptr = ptr;
 	};	
 
@@ -67,10 +64,7 @@ public:
 	{
 		if (this != &other)
 		{
-			if (_ptr != nullptr)
-			{
-				delete _ptr;
-			}
+			delete _ptr;
 			_ptr = other._ptr;
 			other._ptr = nullptr;
 		}
@@ -147,10 +141,7 @@ public:
 
 	void reset(T *ptr)
 	{
-		if (_ptr != nullptr)
-		{
-			delete [] _ptr;
-		}
+		delete [] _ptr;
 		_ptr = ptr;
 	};
 
@@ -158,10 +149,7 @@ public:
 	{
 		if (this != &other)
 		{
-			if (_ptr != nullptr)
-			{
-				delete [] _ptr;
-			}
+			delete [] _ptr;
 			_ptr = other._ptr;
 			other._ptr = nullptr;
 		}
