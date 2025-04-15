@@ -20,15 +20,15 @@
 
 ### Задание 1
 
-[Клонирование объекта класса](https://github.com/netology-code/cppl-homeworks/tree/main/10/01).
+[Клонирование объекта класса](01).
 
 ### Задание 2
 
-[Устранение пересечения](https://github.com/netology-code/cppl-homeworks/tree/main/10/02).
+[Устранение пересечения](02).
 
 ### Задание 3*
 
-[std::unique_ptr своими руками](https://github.com/netology-code/cppl-homeworks/tree/main/10/03).
+[std::unique_ptr своими руками](03).
 
 ### Правила приёма домашней работы
 
